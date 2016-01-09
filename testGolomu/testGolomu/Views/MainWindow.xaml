@@ -1,0 +1,100 @@
+﻿<Window x:Class="testGolomu.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testGolomu"
+        xmlns:Prism="http://prismlibrary.com/"
+        Prism:ViewModelLocator.AutoWireViewModel="True"
+        mc:Ignorable="d"
+        
+        Title="MainWindow" Height="500" Width="800" Loaded="Window_Loaded">
+    <Grid Margin="0,6,0,-21" >
+
+        <ItemsControl Margin="29,29.5,300,40" ItemsSource="{Binding Squares}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="12" Columns="12"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button x:Name="Square"
+                        Command="{Binding DataContext.SquareClickCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
+                        
+                        CommandParameter="{Binding}" ClickMode="Release" >
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Grid Background="{TemplateBinding Button.Content}"/>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <DataTemplate.Triggers>
+                        <DataTrigger Binding="{Binding IsBlack }" Value="1" >
+                            <Setter TargetName="Square" Property="Button.Content" >
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="Image/G.PNG"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+
+                        <DataTrigger Binding="{Binding IsBlack}" Value="2">
+                            <Setter TargetName="Square" Property="Button.Content">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="Image/W.PNG"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsBlack}" Value="14">
+                            <Setter TargetName="Square" Property="Button.Content">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="Image/GG.PNG"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsBlack}" Value="18">
+                            <Setter TargetName="Square" Property="Button.Content">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="Image/GW.PNG"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsBlack}" Value="24">
+                            <Setter TargetName="Square" Property="Button.Content">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="Image/WG.PNG"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsBlack}" Value="28">
+                            <Setter TargetName="Square" Property="Button.Content">
+                                <Setter.Value>
+                                    <ImageBrush ImageSource="Image/WW.PNG"/>
+                                </Setter.Value>
+                            </Setter>
+                        </DataTrigger>
+
+                    </DataTemplate.Triggers>
+
+
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+        <Rectangle Name="RecChess" Margin="22,16,290,36" Stroke="Black" StrokeThickness="10" />
+        <ScrollViewer Width="266" Margin="0,72,0,94"  HorizontalAlignment="Right" CanContentScroll="True"  >
+            <StackPanel Name ="STChat"  Orientation="Vertical" Grid.Column="1" Grid.Row="1" Height="282" />
+
+        </ScrollViewer>
+
+
+        <Label Name="LBName" Content="Your name:" Margin="0,-5,207,448"  FontSize="13.333" FontWeight="Bold" HorizontalAlignment="Right" TextOptions.TextFormattingMode="Display" Width="78"/>
+        <TextBox Name="TBName"  Margin="0,-2,60,0" VerticalAlignment="Top" HorizontalAlignment="right"  Width="142" Height="36" IsUndoEnabled="False" TextOptions.TextFormattingMode="Display" CharacterCasing="Upper" Text="{Binding TBName}" />
+        <Button Name="Chat" Content="Send"  RenderTransformOrigin="0.825,0.762"  HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="40" Height="35" Margin="0,0,3,35"  Command="{Binding ChatCommand}"/>
+        <TextBox Name="Chattb" Margin="0,0,40,35"  HorizontalAlignment="right"   Width="225" Text="{Binding TBChat}" Height="35" VerticalAlignment="Bottom" />
+        <Button Name="BTChangeName" Content="Change" Width="50" Height="35" HorizontalAlignment="Right" Margin="0,-4,10,448" TextOptions.TextFormattingMode="Display" Command="{Binding ChangeCommand}"/>
+        <Label x:Name="label" Content=" Chat/History" Background="Blue"  HorizontalAlignment="Right" Margin="0,34,0,0" VerticalAlignment="Top" Width="265" Height="37"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,116 @@
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\testGolomu.exe.config
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\testGolomu.exe
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\testGolomu.pdb
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\Prism.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\Prism.Wpf.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\System.Windows.Interactivity.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\Prism.xml
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\Prism.Wpf.xml
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\de\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\en\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\es\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\it\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu.csprojResolveAssemblyReference.cache
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\Views\MainWindow.g.cs
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\App.g.cs
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu_MarkupCompile.cache
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu_MarkupCompile.lref
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\Views\MainWindow.baml
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu.g.resources
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu.Properties.Resources.resources
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu.csproj.GenerateResource.Cache
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu.exe
+c:\users\thanh\documents\visual studio 2015\Projects\testGolomu\testGolomu\obj\Debug\testGolomu.pdb
+C:\Users\thanh\Documents\Visual Studio 2015\Projects\testGolomu\testGolomu\obj\Debug\Views\menu.g.cs
+C:\Users\thanh\Documents\Visual Studio 2015\Projects\testGolomu\testGolomu\obj\Debug\Views\menu.baml
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\testGolomu.exe.config
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu.exe
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu.pdb
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\testGolomu.exe
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\testGolomu.pdb
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\Prism.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\Prism.Wpf.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\Prism.xml
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\Prism.Wpf.xml
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu.csprojResolveAssemblyReference.cache
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\Views\menu.g.cs
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\Views\MainWindow.g.cs
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\App.g.cs
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu_MarkupCompile.cache
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu_MarkupCompile.lref
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\Views\menu.baml
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\Views\MainWindow.baml
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu.g.resources
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu.Properties.Resources.resources
+C:\Users\thanh\Desktop\testGolomu\testGolomu\obj\Debug\testGolomu.csproj.GenerateResource.Cache
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\testGolomu.exe.config
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\testGolomu.exe
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\testGolomu.pdb
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\EngineIoClientDotNet.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Microsoft.Windows.Shell.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Newtonsoft.Json.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Prism.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Prism.Wpf.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\RibbonControlsLibrary.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\SocketIoClientDotNet.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\WebSocket4Net.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Microsoft.Windows.Shell.pdb
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Microsoft.Windows.Shell.xml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Newtonsoft.Json.xml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Prism.xml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\Prism.Wpf.xml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\RibbonControlsLibrary.pdb
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\RibbonControlsLibrary.xml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\Views\menu.g.cs
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\Views\MainWindow.g.cs
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\App.g.cs
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu_MarkupCompile.cache
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu_MarkupCompile.lref
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\Views\menu.baml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\Views\MainWindow.baml
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu.g.resources
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu.Properties.Resources.resources
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu.csproj.GenerateResource.Cache
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu.exe
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu.pdb
+C:\Users\thanh\Desktop\1312347_10\Source\testGolomu\testGolomu\obj\Debug\testGolomu.csprojResolveAssemblyReference.cache
+C:\Users\thanh\Desktop\1312347_10 - Copy\Source\testGolomu\testGolomu\bin\Debug\testGolomu.exe.config
+C:\Users\thanh\Desktop\1312347_10 - Copy\Source\testGolomu\testGolomu\obj\Debug\testGolomu.exe
+C:\Users\thanh\Desktop\1312347_10 - Copy\Source\testGolomu\testGolomu\obj\Debug\testGolomu.pdb
