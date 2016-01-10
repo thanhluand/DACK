@@ -101,7 +101,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Models\DataChess.cs" />
+    <Compile Include="ViewModels\AIGomoku.cs" />
     <Compile Include="ViewModels\NetWork.cs" />
     <Compile Include="Views\menu.xaml.cs">
       <DependentUpon>menu.xaml</DependentUpon>

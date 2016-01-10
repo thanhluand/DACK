@@ -108,6 +108,7 @@ namespace testGolomu.ViewModels
                     TBChat = null;
                     if (ClickChat != null)
                         ClickChat(Show);
+                    
                 }
             }
             
@@ -148,6 +149,7 @@ namespace testGolomu.ViewModels
         private void ChangeName()
         {
             Name = TBName;
+            ClickChange(Name);
         }
 
         private void OnSquareClick(ChessSquare square)
@@ -169,6 +171,8 @@ namespace testGolomu.ViewModels
 
         public delegate void ClickChatBox(string Show);
         public event ClickChatBox ClickChat;
+        public delegate void ClickChangeName(string Show);
+        public event ClickChatBox ClickChange;
         public delegate void ShowMessage(string message);
         public event ShowMessage message;
     }
