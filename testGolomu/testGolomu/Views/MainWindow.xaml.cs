@@ -13,6 +13,7 @@ using System.Windows.Threading;
 using Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
 using System.Linq;
+using System.Configuration;
 
 namespace testGolomu.Views
 {
@@ -111,7 +112,8 @@ namespace testGolomu.Views
                 this.Close();
             if (Index == 3 || Index == 4)
             {
-                socket = IO.Socket("ws://gomoku-lajosveres.rhcloud.com:8000");
+                //var ConnStr = ConfigurationSettings.AppSettings["IPAddress"].ToString();
+                socket = IO.Socket(ConfigurationSettings.AppSettings["IPAddress"].ToString());
                 socket.On(Socket.EVENT_CONNECT, () =>
                 {
 
