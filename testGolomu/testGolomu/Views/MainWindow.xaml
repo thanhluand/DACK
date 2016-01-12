@@ -83,17 +83,17 @@
             </ItemsControl.ItemTemplate>
         </ItemsControl>
         <Rectangle Name="RecChess" Margin="22,16,290,36" Stroke="Black" StrokeThickness="10" />
-        <ScrollViewer Name="SVChat" Width="266"  Margin="0,72,0,94"    HorizontalAlignment="Right" CanContentScroll="True"  >
-            <StackPanel Name ="STChat"  Orientation="Vertical" Grid.Column="1" Grid.Row="1" Height="282" />
+        <ScrollViewer   Name="SVChat" Width="266"  Margin="0,72,0,94"    HorizontalAlignment="Right" CanContentScroll="True"  >
+            <StackPanel Name ="STChat"   Orientation="Vertical" Grid.Column="1" Grid.Row="1" Height="282" />
 
         </ScrollViewer>
 
-
+           
         <Label Name="LBName" Content="Your name:" Margin="0,-5,207,448"  FontSize="13.333" FontWeight="Bold" HorizontalAlignment="Right" TextOptions.TextFormattingMode="Display" Width="78"/>
-        <TextBox Name="TBName"  Margin="0,-2,60,0" VerticalAlignment="Top" HorizontalAlignment="right"  Width="142" Height="36" IsUndoEnabled="False" TextOptions.TextFormattingMode="Display" CharacterCasing="Upper" Text="{Binding TBName}" />
-        <Button Name="Chat" Content="Send"  RenderTransformOrigin="0.825,0.762"  HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="40" Height="35" Margin="0,0,3,35"  Command="{Binding ChatCommand}"/>
+        <TextBox Name="TBName"  Margin="0,-2,60,0" VerticalAlignment="Top" HorizontalAlignment="right"  Width="142" Height="36" IsUndoEnabled="False" TextOptions.TextFormattingMode="Display"  Text="{Binding TBName}" />
+        <Button Name="Chat" Content="Send"  RenderTransformOrigin="0.825,0.762"  HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="40" Height="35" Margin="0,0,3,35" Background="#FFE2E215"  Command="{Binding ChatCommand}"/>
         <TextBox Name="Chattb" Margin="0,0,40,35"  HorizontalAlignment="right"   Width="225" Text="{Binding TBChat}" Height="35" VerticalAlignment="Bottom" />
-        <Button Name="BTChangeName" Content="Change" Width="50" Height="35" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-4,10,448" TextOptions.TextFormattingMode="Display" Command="{Binding ChangeCommand}"/>
+        <Button Name="BTChangeName" Background="#FFABAEB2" Content="Change" Width="50" Height="35" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-2,7,0" TextOptions.TextFormattingMode="Display" Command="{Binding ChangeCommand}"/>
         <Label x:Name="label" Content=" Chat/History" Background="Blue"  HorizontalAlignment="Right" Margin="0,34,0,0" VerticalAlignment="Top" Width="265" Height="37"/>
     </Grid>
 

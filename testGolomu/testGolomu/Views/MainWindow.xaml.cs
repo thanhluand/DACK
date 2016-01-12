@@ -53,7 +53,7 @@ namespace testGolomu.Views
             {
                 AI.InitiIsBlack();
               
-                cb = new ChessBoard(AI._IsBlack, Name);
+                cb = new ChessBoard(AI._IsBlack,Player1);
                 cb.Click += ViewModels_Click;
                 cb.ClickChat += ViewModels_ClickChat;
                 cb.ClickChange += ViewModel_ClickChange;
@@ -85,7 +85,7 @@ namespace testGolomu.Views
             {
                 AI.InitiIsBlack();
               
-                cb = new ChessBoard(AI._IsBlack, Name);
+                cb = new ChessBoard(AI._IsBlack, Player1);
                 cb.Click += ViewModels_Click;
                 cb.ClickChat += ViewModels_ClickChat;
                 cb.ClickChange += ViewModel_ClickChange;
@@ -98,7 +98,7 @@ namespace testGolomu.Views
             {
                 AI.InitiIsBlack();
                
-                cb = new ChessBoard(AI._IsBlack, Name);
+                cb = new ChessBoard(AI._IsBlack, Player1);
                 cb.Click += ViewModels_Click;
                 cb.ClickChat += ViewModels_ClickChat;
                 cb.ClickChange += ViewModel_ClickChange;
@@ -295,7 +295,7 @@ namespace testGolomu.Views
                             cb.ClickChange += ViewModel_ClickChange;
                             cb.message += ViewModels_Message;
                             DataContext = cb;
-                            SystemChat(x, y, isPlayer, Name);
+                            SystemChat(x, y, isPlayer,Player1);
                             AI.CheckWin( 4, AI._IsBlack);
                             if (AI.isWin == true)
                             {
@@ -378,7 +378,7 @@ namespace testGolomu.Views
                 SystemChat(AI.PointWin / 12, AI.PointWin % 12, 4, Player1);
                 isPlayer = (isPlayer + 1) % 2;
                 AI.turn++;
-                cb = new ChessBoard(AI._IsBlack, Name);
+                cb = new ChessBoard(AI._IsBlack,Player1);
                 cb.Click += ViewModels_Click;
                 cb.ClickChat += ViewModels_ClickChat;
                 cb.ClickChange += ViewModel_ClickChange;
@@ -433,7 +433,7 @@ namespace testGolomu.Views
             }
             if (e.Title == 2 || e.Title == 3 || e.Title == 4)
             {
-                Name = e.Message1;
+               Player1 = e.Message1;
                 Player1 = e.Message1;
 
                 Index = e.Title;
@@ -448,7 +448,7 @@ namespace testGolomu.Views
            ComputerChat(AI.PointWin / 12, AI.PointWin % 12);
             isPlayer = (isPlayer + 1) % 2;
             AI.turn++;
-            cb = new ChessBoard(AI._IsBlack, Name);
+            cb = new ChessBoard(AI._IsBlack,Player1);
             cb.Click += ViewModels_Click;
             cb.ClickChat += ViewModels_ClickChat;
             cb.ClickChange += ViewModel_ClickChange;

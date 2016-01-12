@@ -61,12 +61,18 @@ namespace testGolomu.Views
         public String NamePlayer1;
         public String NamePlayer2;
         public int Index;
-        private void ViewModels_Click(string Player1, String Player2 , int _index)
+        public void ViewModels_Click(string Player1, String Player2 , int _index)
         {
             NamePlayer1 = Player1;
             NamePlayer2 = Player2;
             Index = _index;
-            RaiseCustomEvent(this, new CustomEventArgs(NamePlayer1, NamePlayer2, Index));
+            try
+            {
+                RaiseCustomEvent(this, new CustomEventArgs(NamePlayer1, NamePlayer2, Index));
+            }catch(Exception e)
+            {
+               MessageBox.Show(e.ToString());
+            }
             this.Close();
             //MainWindow mn = new MainWindow();
             //mn.ShowDialog();
@@ -80,6 +86,7 @@ namespace testGolomu.Views
                 msg1 = s;
                 _Title = Title;
                 msg2 = s2;
+               
             }
             private string msg1;
             public string Message1

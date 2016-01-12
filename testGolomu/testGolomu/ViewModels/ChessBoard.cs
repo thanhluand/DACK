@@ -144,6 +144,7 @@ namespace testGolomu.ViewModels
             SquareClickCommand = new Command<ChessSquare>(OnSquareClick);
             Name = _Name;
             TBName = _Name;
+            
         }
 
         private void ChangeName()

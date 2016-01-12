@@ -195,12 +195,13 @@ namespace testGolomu.ViewModels
                 }
                 else
                 {
-
+                   
 
 
 
                     if (Click != null)
                         Click(Name1, "", Index);
+                   
 
                 }
             }
